@@ -1,12 +1,12 @@
-import '@styles/globals.css'
+import '@styles/globals.css';
 
-import Nav from '@components/Nav'
-import Provider from '@components/Provider'
+import Nav from '@components/Nav';
+import Provider from '@components/Provider';
 
 export const metadata = {
   title: 'Promptopia',
-  description: 'Discover & Share AI Prompts',
-}
+  description: 'Discover & Share AI Prompts | Rudy Nurafif',
+};
 
 const RootLayout = ({ children }) => {
   return (
@@ -24,7 +24,7 @@ const RootLayout = ({ children }) => {
         </Provider>
       </body>
     </html>
-  )
-}
+  );
+};
 
-export default RootLayout
+export default RootLayout;
